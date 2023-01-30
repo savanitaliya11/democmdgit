@@ -64,7 +64,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
              Question(question[questionIndex]),
-            ElevatedButton(onPressed: answerQuestion, child: Text('Answer'))
+            ElevatedButton(onPressed: answerQuestion, child: Text('Answer')),
+            ElevatedButton(onPressed: answerQuestion, child: Text('Answer1')),
           ],
 
 
