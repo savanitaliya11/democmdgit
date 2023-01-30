@@ -65,7 +65,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
              Question(question[questionIndex]),
             ElevatedButton(onPressed: answerQuestion, child: Text('Answer')),
-            ElevatedButton(onPressed: answerQuestion, child: Text('Answer1')),
+
+            ElevatedButton(onPressed: answerQuestion, child: Text('Answer2')),
           ],
 
 
